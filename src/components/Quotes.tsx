@@ -30,7 +30,7 @@ export const Quotes = () => {
   };
 
   return (
-    <Card maxW={"600px"} variant={"outline"} mt={10} borderRadius={"2.5rem"}>
+    <Card maxW={"600px"} mt={"2rem"}>
       <CardBody>
         {quote && <Quote content={quote.content} author={quote.author} />}
       </CardBody>
